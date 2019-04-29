@@ -9,6 +9,4 @@
 module load R
 
 #Command to execute R code
-R CMD BATCH --no-save --vanilla a.R routput
-
-# End of script
+R a.R -n routput
