@@ -11,7 +11,6 @@
 #SBATCH --mem-per-cpu=5gb        # The memory the job will use per cpu core.
 module load R
 
-R a.R -n routput
 #Command to execute R code
 R CMD BATCH --no-save --vanilla a.R routput
 
